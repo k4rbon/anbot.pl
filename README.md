@@ -6,7 +6,7 @@ Bot został zbudowany jako modularny system obsługujący:
 
 - integrację z MongoDB,
 
-- panel webowy (Spring Boot),
+- panel webowy,
 
 - dynamiczne ustawienia gildii,
 
@@ -26,30 +26,6 @@ Obsługa eventów JDA z rozszerzonymi intencjami
 
 🔹 Dashboard (Web Panel)
 
-Folder: dashboard/
-
-Uruchamiany przez Spring Boot
+Uruchamiany przez MongoDB
 
 Metryki bota, statystyki, monitorowanie runtime
-
-🔹 MongoDB
-
-Folder: mongodb/
-
-MongoConnection – połączenie z bazą
-
-GuildManager – zarządzanie danymi serwerów
-
-SettingsGuildManager – konfiguracje gildii
-
-🔹 Utils
-
-Cooldown
-
-Scheduler
-
-SlashCommand handler
-
-HashUtils / GsonUtils
-
-System Exclude / Pair
